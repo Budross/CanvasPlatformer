@@ -1,0 +1,28 @@
+#container {
+	position: relative;
+	padding: 0;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    transform: translate(25%);
+}
+
+#canvasLayer1 {
+	border: 1px solid black;
+	display: block;
+	width: 1280px;
+	height: 720px;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#canvasLayer2 {
+	border: 1px solid black;
+	display: block;
+	width: 1280px;
+	height: 720px;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
